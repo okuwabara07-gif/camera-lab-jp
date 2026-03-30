@@ -2,9 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 export const metadata: Metadata = {
   title: 'カメラLAB | K-Beauty Portal',
-  description: 'カメラ・レンズ・撮影機材の最新比較ランキング',
-  openGraph: { title: 'カメラLAB', description: 'カメラ・レンズ・撮影機材の最新比較ランキング', siteName: 'K-Beauty Portal', type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'カメラLAB', description: 'カメラ・レンズ・撮影機材の最新比較ランキング', site: '@beauty_note_j' },
+  description: 'カメラの最新比較ランキング・口コミ・おすすめ商品',
+  twitter: { card: 'summary_large_image', site: '@beauty_note_j' },
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
