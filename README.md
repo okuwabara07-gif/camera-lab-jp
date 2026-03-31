@@ -1,2 +1,3 @@
 # camera-lab-jp
-カメラLAB
+
+Updated: 2026-04-01
